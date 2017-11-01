@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B93BC9EDE0E1FB44FC5A0C5 /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994ED97BBB780B2C8B08B320 /* Pods_Hospital.framework */; };
+		9B009CFB1FAA1A270000CCB3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B009CF91FAA1A270000CCB3 /* Model.xcdatamodeld */; };
 		9B0AC9AC1FA9C6F10066A345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AC9AB1FA9C6F10066A345 /* AppDelegate.swift */; };
 		9B0AC9AE1FA9C6F10066A345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AC9AD1FA9C6F10066A345 /* ViewController.swift */; };
 		9B0AC9B11FA9C6F10066A345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AC9AF1FA9C6F10066A345 /* Main.storyboard */; };
 		9B0AC9B31FA9C6F10066A345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AC9B21FA9C6F10066A345 /* Assets.xcassets */; };
 		9B0AC9B61FA9C6F10066A345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AC9B41FA9C6F10066A345 /* LaunchScreen.storyboard */; };
+		9B0AC9BE1FA9CEA80066A345 /* AddHospitalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AC9BD1FA9CEA80066A345 /* AddHospitalsViewController.swift */; };
+		9B0AC9C71FA9CF9D0066A345 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9C61FA9CF9D0066A345 /* Security.framework */; };
+		9B0AC9C91FA9CFA80066A345 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9C81FA9CFA80066A345 /* CoreGraphics.framework */; };
+		9B0AC9CB1FA9CFAF0066A345 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9CA1FA9CFAF0066A345 /* CoreBluetooth.framework */; };
+		9B0AC9CD1FA9CFB50066A345 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9CC1FA9CFB50066A345 /* Accelerate.framework */; };
+		9B0AC9CF1FA9CFBE0066A345 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9CE1FA9CFBE0066A345 /* AVFoundation.framework */; };
+		9B0AC9D11FA9CFC80066A345 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9D01FA9CFC80066A345 /* CoreLocation.framework */; };
+		9B0AC9D31FA9CFD70066A345 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9D21FA9CFD70066A345 /* libc++.tbd */; };
+		9B0AC9D51FA9CFE10066A345 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9D41FA9CFE10066A345 /* libicucore.tbd */; };
+		9B0AC9D71FA9CFE80066A345 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AC9D61FA9CFE80066A345 /* libz.tbd */; };
+		9BCAD1341FA9E6BF00901718 /* AddDoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCAD1331FA9E6BF00901718 /* AddDoctorsViewController.swift */; };
+		9BCAD1361FA9EA6100901718 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCAD1351FA9EA6100901718 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C7058AC9A7903796CAE8CC1 /* Pods-Hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hospital/Pods-Hospital.debug.xcconfig"; sourceTree = "<group>"; };
+		994ED97BBB780B2C8B08B320 /* Pods_Hospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B009CFA1FAA1A270000CCB3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		9B0AC9A81FA9C6F10066A345 /* Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0AC9AB1FA9C6F10066A345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B0AC9AD1FA9C6F10066A345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,26 @@
 		9B0AC9B21FA9C6F10066A345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0AC9B51FA9C6F10066A345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0AC9B71FA9C6F10066A345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0AC9BD1FA9CEA80066A345 /* AddHospitalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHospitalsViewController.swift; sourceTree = "<group>"; };
+		9B0AC9BF1FA9CF3E0066A345 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		9B0AC9C01FA9CF3E0066A345 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		9B0AC9C11FA9CF6A0066A345 /* Hospital-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hospital-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B0AC9C61FA9CF9D0066A345 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B0AC9C81FA9CFA80066A345 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B0AC9CA1FA9CFAF0066A345 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9B0AC9CC1FA9CFB50066A345 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9B0AC9CE1FA9CFBE0066A345 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B0AC9D01FA9CFC80066A345 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B0AC9D21FA9CFD70066A345 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9B0AC9D41FA9CFE10066A345 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		9B0AC9D61FA9CFE80066A345 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B3F4B681FAA1E6100125F66 /* Hospitals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hospitals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B3F4B691FAA1E6100125F66 /* Hospitals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hospitals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9B3F4B6A1FAA46E300125F66 /* Doctors+CoreDataProperties copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctors+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		9B3F4B6B1FAA46E300125F66 /* Doctors+CoreDataClass copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctors+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		9BCAD1331FA9E6BF00901718 /* AddDoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDoctorsViewController.swift; sourceTree = "<group>"; };
+		9BCAD1351FA9EA6100901718 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CBBBC7FA83AA511DBE983259 /* Pods-Hospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hospital/Pods-Hospital.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +66,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0AC9D71FA9CFE80066A345 /* libz.tbd in Frameworks */,
+				9B0AC9D51FA9CFE10066A345 /* libicucore.tbd in Frameworks */,
+				9B0AC9D31FA9CFD70066A345 /* libc++.tbd in Frameworks */,
+				9B0AC9D11FA9CFC80066A345 /* CoreLocation.framework in Frameworks */,
+				9B0AC9CF1FA9CFBE0066A345 /* AVFoundation.framework in Frameworks */,
+				9B0AC9CD1FA9CFB50066A345 /* Accelerate.framework in Frameworks */,
+				9B0AC9CB1FA9CFAF0066A345 /* CoreBluetooth.framework in Frameworks */,
+				9B0AC9C91FA9CFA80066A345 /* CoreGraphics.framework in Frameworks */,
+				9B0AC9C71FA9CF9D0066A345 /* Security.framework in Frameworks */,
+				5B93BC9EDE0E1FB44FC5A0C5 /* Pods_Hospital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6915678B28DAE342F3A7B7CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C7058AC9A7903796CAE8CC1 /* Pods-Hospital.debug.xcconfig */,
+				CBBBC7FA83AA511DBE983259 /* Pods-Hospital.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B0AC99F1FA9C6F10066A345 = {
 			isa = PBXGroup;
 			children = (
+				9B3F4B6A1FAA46E300125F66 /* Doctors+CoreDataProperties copy.swift */,
+				9B3F4B6B1FAA46E300125F66 /* Doctors+CoreDataClass copy.swift */,
+				9B3F4B691FAA1E6100125F66 /* Hospitals+CoreDataClass.swift */,
+				9B3F4B681FAA1E6100125F66 /* Hospitals+CoreDataProperties.swift */,
 				9B0AC9AA1FA9C6F10066A345 /* Hospital */,
 				9B0AC9A91FA9C6F10066A345 /* Products */,
+				9B0AC9C51FA9CF9D0066A345 /* Frameworks */,
+				6915678B28DAE342F3A7B7CA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +116,38 @@
 		9B0AC9AA1FA9C6F10066A345 /* Hospital */ = {
 			isa = PBXGroup;
 			children = (
+				9B009CF91FAA1A270000CCB3 /* Model.xcdatamodeld */,
+				9B0AC9C01FA9CF3E0066A345 /* GoogleMaps.bundle */,
+				9B0AC9BF1FA9CF3E0066A345 /* GoogleMaps.framework */,
 				9B0AC9AB1FA9C6F10066A345 /* AppDelegate.swift */,
 				9B0AC9AD1FA9C6F10066A345 /* ViewController.swift */,
 				9B0AC9AF1FA9C6F10066A345 /* Main.storyboard */,
 				9B0AC9B21FA9C6F10066A345 /* Assets.xcassets */,
 				9B0AC9B41FA9C6F10066A345 /* LaunchScreen.storyboard */,
 				9B0AC9B71FA9C6F10066A345 /* Info.plist */,
+				9B0AC9BD1FA9CEA80066A345 /* AddHospitalsViewController.swift */,
+				9B0AC9C11FA9CF6A0066A345 /* Hospital-Bridging-Header.h */,
+				9BCAD1331FA9E6BF00901718 /* AddDoctorsViewController.swift */,
+				9BCAD1351FA9EA6100901718 /* AddViewController.swift */,
 			);
 			path = Hospital;
+			sourceTree = "<group>";
+		};
+		9B0AC9C51FA9CF9D0066A345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AC9D61FA9CFE80066A345 /* libz.tbd */,
+				9B0AC9D41FA9CFE10066A345 /* libicucore.tbd */,
+				9B0AC9D21FA9CFD70066A345 /* libc++.tbd */,
+				9B0AC9D01FA9CFC80066A345 /* CoreLocation.framework */,
+				9B0AC9CE1FA9CFBE0066A345 /* AVFoundation.framework */,
+				9B0AC9CC1FA9CFB50066A345 /* Accelerate.framework */,
+				9B0AC9CA1FA9CFAF0066A345 /* CoreBluetooth.framework */,
+				9B0AC9C81FA9CFA80066A345 /* CoreGraphics.framework */,
+				9B0AC9C61FA9CF9D0066A345 /* Security.framework */,
+				994ED97BBB780B2C8B08B320 /* Pods_Hospital.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B0AC9BA1FA9C6F10066A345 /* Build configuration list for PBXNativeTarget "Hospital" */;
 			buildPhases = (
+				F171D310014A4A0E74CADE8A /* [CP] Check Pods Manifest.lock */,
 				9B0AC9A41FA9C6F10066A345 /* Sources */,
 				9B0AC9A51FA9C6F10066A345 /* Frameworks */,
 				9B0AC9A61FA9C6F10066A345 /* Resources */,
+				268407A9F297C85446AB001B /* [CP] Embed Pods Frameworks */,
+				AC96C915F2922C9926BFF821 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +185,7 @@
 				TargetAttributes = {
 					9B0AC9A71FA9C6F10066A345 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +221,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		268407A9F297C85446AB001B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hospital/Pods-Hospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC96C915F2922C9926BFF821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hospital/Pods-Hospital-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hospital/Pods-Hospital-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F171D310014A4A0E74CADE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B0AC9A41FA9C6F10066A345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCAD1361FA9EA6100901718 /* AddViewController.swift in Sources */,
 				9B0AC9AE1FA9C6F10066A345 /* ViewController.swift in Sources */,
+				9B0AC9BE1FA9CEA80066A345 /* AddHospitalsViewController.swift in Sources */,
 				9B0AC9AC1FA9C6F10066A345 /* AppDelegate.swift in Sources */,
+				9BCAD1341FA9E6BF00901718 /* AddDoctorsViewController.swift in Sources */,
+				9B009CFB1FAA1A270000CCB3 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +420,18 @@
 		};
 		9B0AC9BB1FA9C6F10066A345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7058AC9A7903796CAE8CC1 /* Pods-Hospital.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9ECRET98Q;
 				INFOPLIST_FILE = Hospital/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theiOSDeveloper.Hospital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hospital/Hospital-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +439,17 @@
 		};
 		9B0AC9BC1FA9C6F10066A345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBBC7FA83AA511DBE983259 /* Pods-Hospital.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9ECRET98Q;
 				INFOPLIST_FILE = Hospital/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theiOSDeveloper.Hospital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hospital/Hospital-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +477,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B009CF91FAA1A270000CCB3 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B009CFA1FAA1A270000CCB3 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9B009CFA1FAA1A270000CCB3 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B0AC9A01FA9C6F10066A345 /* Project object */;
 }
